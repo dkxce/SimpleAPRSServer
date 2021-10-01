@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- APRS Server, Main -->
+	<ServerName>SimpleAPRSServer</ServerName>
+	<ServerPort>12015</ServerPort> <!-- TCP port; default 14580 -->
+	<MaxClients>50</MaxClients> <!-- Max Connected clients count; default 50 -->
+	
+	<!-- HTTP Server, Main -->
+	<HTTPServer>80</HTTPServer> <!-- Enable Http Server at Port, ex: 80; default 0 -->	
+	
+	<!-- AIS Server, Main -->
+	<AISServer>0</AISServer> <!-- Enable AIS Server at Port, ex: 1080; default 0 -->
+	<AISBetween>1</AISBetween> <!-- Allow AIS Clients send packets to each other, 0 - No, 1 - Yes; default 0 -->
+	
+	<!-- APRS Server, Outgoing Data -->
+	<EnableClientFilter>1</EnableClientFilter> <!-- Enable filter for clients; 0 - No, 1 - Yes; default 0 -->
+	<PassBackAPRSPackets>0</PassBackAPRSPackets> <!-- Pass APRS Packets back to sender; 0 - No, 1 - Yes; default 0 -->
+	
+	<!-- APRS Server, Incoming Data -->
+	<OnlyValidPasswordUsers>0</OnlyValidPasswordUsers> <!-- Allow to connect only users with correct password, 0 - No, 1 - Yes; default 0 -->
+	<PassDataOnlyValidUsers>0</PassDataOnlyValidUsers> <!-- Broadcast packets only from users with correct password, 0 - No, 1 - Yes; default 0 -->
+	<PassDataOnlyLoggedUser>0</PassDataOnlyLoggedUser> <!-- Broadcast packets only if packet sender is a logged aprs user, 0 - No, 1 - Yes; default 0 -->
+	
+	<!-- Buffering - Store GPS in Memory -->
+	<StoreGPSInMemory>1</StoreGPSInMemory> <!-- Store GPS Information in Memory; 0 - no store, 1 - store in; default 0 -->
+	<StoreGPSMaxTime>1440</StoreGPSMaxTime> <!-- Store GPS Information Max Time; in minutes max store time; default 1440 -->
+	
+	<!-- APRS Server, User/Callsign Filter -->	
+	<Ban>UNKNOWN</Ban> <!-- user to ban, no default -->
+	<Ban>ANONYMOUS</Ban> <!-- user to ban, no default -->	
+	
+	<!-- IP FILTERs -->
+	<ListenIPMode>0</ListenIPMode> <!-- 0 - NoRules, 1 - AllowWhiteList, 2 - DenyBlackList; default 0 -->
+	<!-- ALLOW IP; no default -->
+	<ListenIPAllow>127.0.0.1</ListenIPAllow> <!-- (supporting *: 192.168.10.*) (Regex, if starts from ^ or ends with $) -->
+	<ListenIPAllow>192.168.*.*</ListenIPAllow> <!-- (supporting *: 192.168.10.*) (Regex, if starts from ^ or ends with $) -->
+	<ListenIPAllow>^10.0.0?[0-9]?\d.\d{1,3}$</ListenIPAllow> <!-- (supporting *: 192.168.10.*) (Regex, if starts from ^ or ends with $) -->	
+	<!-- DENY IP; no default -->
+	<ListenIPDeny></ListenIPDeny> <!-- (supporting *: 192.168.10.*) (Regex, if starts from ^ or ends with $) -->
+	
+	<!-- MAC FILTERs -->
+	<ListenMacMode>0</ListenMacMode> <!-- 0 - NoRules, 1 - AllowWhiteList, 2 - DenyBlackList; default 0 -->		
+	<!-- ALLOW MAC; no default -->
+	<ListenMacAllow>*-*-*-*-*-*</ListenMacAllow> <!-- (XX-XX-XX-XX-XX-XX) (supporting *: XX-XX-XX-XX-*-XX) (Regex, if starts from ^ or ends with $) -->
+	<!-- DENY MAC; no default -->
+	<ListenMacDeny></ListenMacDeny> <!-- (XX-XX-XX-XX-XX-XX) (supporting *: XX-XX-XX-XX-*-XX) (Regex, if starts from ^ or ends with $) -->
+	
+	<!-- Console Information -->
+	<OutConfigToConsole>1</OutConfigToConsole> <!-- out config options to console, 0 - No, 1 - Yes; default 1 -->
+	<OutAPRStoConsole>1</OutAPRStoConsole> <!-- out incoming APRS packets to console, 0 - No, 1 - Yes; default 1 -->
+	<OutConnectionsToConsole>1</OutConnectionsToConsole> <!-- out Connections to console, 0 - No, 1 - Yes; default 1 -->
+	<OutBroadcastsMessages>1</OutBroadcastsMessages> <!-- out Broadcast Messages to console, 0 - No, 1 - Yes; default 0 -->
+	<OutBuddiesCount>1</OutBuddiesCount>  <!-- out Buddies Count to console, 0 - No, 1 - Yes; default 0 -->	
+</config>

@@ -1,0 +1,6 @@
+Windows:
+	UI-View32
+
+Android:
+	OruxMaps
+	APRSDroid

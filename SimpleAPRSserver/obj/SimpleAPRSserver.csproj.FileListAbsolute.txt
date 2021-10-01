@@ -1,0 +1,10 @@
+C:\Downloads\CD-REC\TEST\SimpleAPRSserver\SimpleAPRSserver\obj\Debug\ResolveAssemblyReference.cache
+C:\Downloads\CD-REC\TEST\SimpleAPRSserver\BIN\SimpleAPRSserver.exe
+C:\Downloads\CD-REC\TEST\SimpleAPRSserver\BIN\SimpleAPRSserver.pdb
+C:\Downloads\CD-REC\TEST\SimpleAPRSserver\SimpleAPRSserver\obj\Debug\SimpleAPRSserver.exe
+C:\Downloads\CD-REC\TEST\SimpleAPRSserver\SimpleAPRSserver\obj\Debug\SimpleAPRSserver.pdb
+D:\PROJECTS\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\SimpleAPRSserver\SimpleAPRSserver\obj\Debug\SimpleAPRSserver.exe
+D:\PROJECTS\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\SimpleAPRSserver\SimpleAPRSserver\obj\Debug\SimpleAPRSserver.pdb
+D:\PROJECTS\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\SimpleAPRSserver\BIN\SimpleAPRSserver.exe
+D:\PROJECTS\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\SimpleAPRSserver\BIN\SimpleAPRSserver.pdb
+D:\PROJECTS\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\SimpleAPRSserver\SimpleAPRSserver\obj\Debug\ResolveAssemblyReference.cache

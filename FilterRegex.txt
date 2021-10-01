@@ -1,0 +1,14 @@
+r/lat/lon/dist - (?:^|\s)r/(?<lat>[\d\.\-]+)/(?<lon>[\d\.\-]+)/(?<dist>[\d]+)
+p/aa/bb/cc - (?:^|\s)p(?:/(?<call>[^\/\s\r\n]+))+
+b/call1/call2 - (?:^|\s)b(?:/(?<exact>[^\/\s\r\n]+))+
+o/obj1/obj2 - (?:^|\s)o(?:/(?<obj>[^\/\s\r\n]+))+
+os/obj1/obj2 - (?:^|\s)os(?:/(?<strict>[^\/\r\n]{3,9}))+$
+t/poimqstunw - (?:^|\s)t/(?<type>[poimqstunw]+)(?:/(?<call>[^\/\s\r\n]+)/(?<dist>[\d]+))?
+s/pri/alt/over - (?:^|\s)s/(?<pri>[^\/\s\r\n]*)(?:/(?<alt>[^\/\s\r\n]*)(?:/(?<over>[^\/\s\r\n]+))?)?
+d/digi1/digi2 - (?:^|\s)d(?:/(?<call>[^\/\s\r\n]+))+
+a/latN/lonW/latS/lonE - (?:^|\s)a/(?<top>[\d\.\-]+)/(?<left>[\d\.\-]+)/(?<bottom>[\d\.\-]+)/(?<right>[\d\.\-]+)
+e/call1/call1 - (?:^|\s)e(?:/(?<ssid>[^\/\s\r\n]+))+
+g/call1/call1 - (?:^|\s)g(?:/(?<ssid>[^\/\s\r\n]+))+
+u/call1/call1 - (?:^|\s)u(?:/(?<ssid>[^\/\s\r\n]+))+
+m/dist - (?:^|\s)m/(?<dist>[\d]+)
+f/call/dist - (?:^|\s)f/(?<call>[^\/\s\r\n]+)/(?<dist>[\d]+)
