@@ -1,3 +1,5 @@
+# Simple APRS Server
+
 Это простой APRS сервер, который
 позволяет обмениваться данными между
 всеми подключенными к нему клиентами.
@@ -71,3 +73,5 @@ Client Software:
   Android:
 	OruxMaps
 	APRSDroid
+
+<img src="window.png"/>
